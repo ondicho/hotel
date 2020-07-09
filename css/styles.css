@@ -4,3 +4,23 @@
   color:  #3a9988;
 
 }
+.btn {
+  font-size: 16px;
+}
+.btn-success {
+  background: green;
+}
+.btn-fail {
+  background: red;
+}
+.sidebar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  float: left;
+  background-color: #3a9988;
+}
+.main{
+  margin-left: 160px;
+  padding: 0px 50px;
+}
