@@ -3,8 +3,6 @@
   font-family: serif;
   color:  #3a9988;
 }
-
-
 .sidebar {
   width: 220px;
   height: 100%;
@@ -33,16 +31,21 @@ ul{
   border: 2px  solid black;
   background-color:  #c0ccca;
   margin-left: 250px;
-}
-
-@media screen (){
-  body{
-    background-color:  #d6abd5;
+}/*
+.column {
+  float: left;
+  width: 600px;
+  column-gap: 100px;
+  column-count: 4;
+}*/
+@media screen and (min-width:  768px) {
+  .main{
+    margin-left: 200px;
   }
-  #column{
-    width: 350px;
+  .column {
     float: left;
-    margin-left:250px;
-    padding: 15px;
+    width: 40%;
+    padding: 40px;
+
   }
 }
