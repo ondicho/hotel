@@ -1,7 +1,7 @@
 .header {
   font-style: italic;
   font-family: serif;
-  color:  #3a9988;
+  color:   #969185;
   text-align: center;
 }
 .sidebar {
@@ -19,13 +19,16 @@
   color:  #4a2013;
   display: block;
 }
+.sidebar a:hover{
+  color:  #ccdad9;
+}
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 .main{
-  margin-left: 200px;
+  margin-left: 20px;
   padding: 0px 50px;
 }
 .pic{
@@ -33,11 +36,11 @@ ul{
   background-color:  #c0ccca;
   margin-left: 250px;
 }
-@media screen and (min-width:  768px) {
+@media screen and (min-width:  768px) {/*mobile first development*/
   .main{
     margin-left: 200px;
   }
-  .column {
+  .column { /*defines the columns in the accommodations page*/
     float: left;
     width: 40%;
     padding: 40px;
